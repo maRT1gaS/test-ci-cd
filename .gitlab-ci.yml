@@ -1,0 +1,9 @@
+image: node:latest
+
+staged:
+  build
+
+building:
+  stage: build
+  script:
+    - npm i
